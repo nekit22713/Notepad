@@ -1,0 +1,20 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Notepandus"
+             x:Class="Notepandus.App">
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+    </Application.Styles>
+
+	<Application.Resources>
+		<Image x:Key="back_folder" Source="/Assets/back_folder.png" />
+		<Image x:Key="drive" Source="/Assets/drive.png" />
+		<Image x:Key="file" Source="/Assets/file.png" />
+		<Image x:Key="folder" Source="/Assets/folder.png" />
+		<Image x:Key="sys_drive" Source="/Assets/sys_drive.png" />
+	</Application.Resources>
+</Application>
